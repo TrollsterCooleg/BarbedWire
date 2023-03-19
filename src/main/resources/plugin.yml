@@ -1,0 +1,7 @@
+name: BarbedWire
+version: '${project.version}'
+main: me.cooleg.barbedwire.BarbedWire
+api-version: 1.16
+commands:
+  getwire:
+    permission: barbedwire.get

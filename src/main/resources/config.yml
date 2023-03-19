@@ -1,0 +1,17 @@
+## Editing and saving when plugin is on may cause the config section to revert.
+config:
+  ## How much damage the barbed wires do twice every second
+  damage: 1.5
+  ## Effects to give players.
+  ## Effect names: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/potion/PotionType.html
+  effects:
+    - poison,60
+  ## Types of entities immune to the barbed wire.
+  ## Entity type names: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html
+  immunemobs:
+    - zombie
+  ## Set name of barbed wire. Use & for color codes.
+  name: "&bBarbed Wire"
+
+## Stores each barbed wires, please don't tamper!
+wires:
